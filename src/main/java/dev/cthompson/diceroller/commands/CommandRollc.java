@@ -70,7 +70,7 @@ public class CommandRollc implements ICommand{
         }else {
         	if(argString[0].equals("9001")) {
         		System.out.println(argString[0]);
-        		message+=" IS TRYING TO ROLL GREATER THAN 9000!!!! IS HE GONNA DO IT?";
+        		message+=" IS TRYING TO ROLL GREATER THAN 9000!!!! ARE THEY GONNA DO IT?";
         		
         		vals = rolls.Roller(1,9001);
         		
@@ -124,7 +124,7 @@ public class CommandRollc implements ICommand{
         	contextResult = "Major Success";
         	break;
         default:
-        	contextResult = "Nuetral";
+        	contextResult = "Neutral";
         	break;
         }
         
